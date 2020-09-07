@@ -21,4 +21,7 @@ Alternatively, you can also clone the latest version from the [repository](https
 pip install -e .
 ```` 
 
-To use it change the queries in main.py and run it.
+To use it run 
+```
+python main.py "your question here"
+```
