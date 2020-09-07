@@ -20,6 +20,9 @@ Alternatively, you can also clone the latest version from the [repository](https
 ````
 pip install -e .
 ```` 
+
+**Download pretrained model**
+
 Download the pretrained model from  **[here](https://drive.google.com/drive/folders/1XJu0DMI1nZzjJKEqBfzx4ErHkGU_0jH6?usp=sharing)** and place it in the folder
 
 ## Usage
