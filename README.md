@@ -21,7 +21,7 @@ Alternatively, you can also clone the latest version from the [repository](https
 pip install -e .
 ```` 
 
-**Download pretrained model**
+## Download pretrained model
 
 Download the pretrained model from  **[here](https://drive.google.com/drive/folders/1XJu0DMI1nZzjJKEqBfzx4ErHkGU_0jH6?usp=sharing)** and place it in the folder
 
@@ -31,3 +31,28 @@ To use it run
 ```
 python main.py "your question here"
 ```
+
+
+## Fine tuning
+
+The leetData.csv file includes pairs of coding questions from leetCode and a similarity score. It is created using my other repo, **[Leetcode_similar_question_scraper](https://github.com/Ericxu19/Leetcode_similar_question_scraper.git)**
+
+running 
+```
+python train.py
+```
+will continus to train the model using the included dataset.
+
+## Notes and graphes
+
+The model is created by continuing to train a BERT model built for the sts benchmark using the leetcode dataset. 
+
+The initial results seem positive
+
+A simple change of subject which threw off google search and the orginal model trained on sts dataset was succesfullly detected by the mew model.
+
+![](images/change-of-subject.png)
+
+However with a more complicate paraphrase, the model was unable to find the orginal qusetion it was based on. But the similar qusetion it returned are all solved by dynamic programming, which is the way to solve the problem in the second query.
+
+![](images/para.png)
