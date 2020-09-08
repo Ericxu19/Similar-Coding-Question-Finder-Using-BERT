@@ -1,4 +1,4 @@
-# Similar Coding Question Finder with BERT
+# Similar Coding Question Finder Using BERT
 
 install sentence-transformers
 ## Installation
