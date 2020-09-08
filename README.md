@@ -49,10 +49,10 @@ The model is created by continuing to train a BERT model built for the sts bench
 
 The initial results seem positive
 
-A simple change of subject which threw off google search and the orginal model trained on sts dataset was succesfullly detected by the mew model.
+A simple change of subject which threw off google search and the orginal model trained on sts dataset was succesfullly detected by the new model.
 
 ![](images/change-of-subject.png)
 
-However with a more complicate paraphrase, the model was unable to find the orginal qusetion it was based on. But the similar qusetion it returned are all solved by dynamic programming, which is the way to solve the problem in the second query.
+However with a more complicated paraphrase, the model was unable to find the orginal question it was based on. But the similar questions it returned are all solved by dynamic programming, which is the way to solve the problem in the second query.
 
 ![](images/para.png)
