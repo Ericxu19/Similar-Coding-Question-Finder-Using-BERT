@@ -49,7 +49,7 @@ The model is created by continuing to train a BERT model built for the sts bench
 
 The initial results seem positive
 
-A simple change of subject which threw off google search and the orginal model trained on sts dataset was succesfullly detected by the mew model.
+A simple change of subject which threw off google search and the orginal model trained on sts dataset was succesfullly detected by the new model.
 
 ![](images/change-of-subject.png)
 
