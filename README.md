@@ -53,6 +53,6 @@ A simple change of subject which threw off google search and the orginal model t
 
 ![](images/change-of-subject.png)
 
-However with a more complicated paraphrase, the model was unable to find the orginal question it was based on. But the similar question it returned are all solved by dynamic programming, which is the way to solve the problem in the second query.
+However with a more complicated paraphrase, the model was unable to find the orginal question it was based on. But the similar questions it returned are all solved by dynamic programming, which is the way to solve the problem in the second query.
 
 ![](images/para.png)
