@@ -41,3 +41,4 @@ for query in queries:
 
     for idx in top_results[0:top_k]:
         print(corpus[idx].strip(), "(Score: %.4f)" % (cos_scores[idx]))
+        print("\n======================\n")
