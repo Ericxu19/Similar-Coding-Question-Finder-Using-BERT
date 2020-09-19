@@ -26,7 +26,16 @@ pip install -e .
 Download the pretrained model from  **[here](https://drive.google.com/drive/folders/1XJu0DMI1nZzjJKEqBfzx4ErHkGU_0jH6?usp=sharing)** and place it in the folder
 
 ## Usage
+**Use the new UI**
+Run 
+````
+python UI.py
+```` 
+The first query may be very slow as it creates the embedding for all the questions on LeetCode, but queries after that should only takes seconds.
 
+The "Tags" section gives a list similar questions' tags and their frequency. 
+
+**Run it from terminal**
 To use it run 
 ```
 python main.py "your question here"
