@@ -43,7 +43,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         else:
             with open("embed.pickle",'rb') as fil:
                 corpus_embeddings = pickle.load(fil)
-                print('loaded')
+                
             
         #corpus_embeddings = embedder.encode(corpus, convert_to_tensor=True)
         #os.path.isfile('')
