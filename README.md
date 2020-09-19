@@ -28,6 +28,9 @@ Download the pretrained model from  **[here](https://drive.google.com/drive/fold
 ## Usage
 
 **Use the new UI**
+
+![](images/ui.png)
+
 Run 
 ````
 python UI.py
