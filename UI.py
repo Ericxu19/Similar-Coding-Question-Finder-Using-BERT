@@ -26,7 +26,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 #for name, param in embedder.named_parameters():
 #    if param.requires_grad:print(name)
     def find(self):
-        embedder = SentenceTransformer('pT6b8e4roberta-large-nli-stsb-mean-tokens-2020-09-12_23-37-54')
+        embedder = SentenceTransformer('model')
         with open('reverse.json', 'r') as f:
             reverse = json.load(f)
 
