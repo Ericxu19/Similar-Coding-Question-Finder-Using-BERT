@@ -46,6 +46,10 @@ To use it run
 python main.py "your question here"
 ```
 
+## Known issue
+
+Due to an attempt to clean up the database by stripping away examples and implementation details, several questions became empty strings. So when given a short phrase, the output will be all empty strings.
+
 
 ## Fine tuning
 
