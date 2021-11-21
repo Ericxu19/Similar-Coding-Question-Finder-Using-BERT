@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>953</width>
-    <height>752</height>
+    <width>1000</width>
+    <height>1000</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Similar question finder</string>
+   <string>Similar Question Finder</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
@@ -70,3 +70,4 @@
  <resources/>
  <connections/>
 </ui>
+
