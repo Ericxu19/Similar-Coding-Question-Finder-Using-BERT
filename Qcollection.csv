@@ -3788,3 +3788,28 @@ In each round of the game, Alice divides the row into two non-empty rows (i.e. l
 The game ends when there is only one stone remaining. Alice's is initially zero.
 Return the maximum score that Alice can obtain.
  "
+Choose any node in the binary tree and a direction (right or left).
+If the current direction is right then move to the right child of the current node otherwise move to the left child.
+Change the direction from right to left or right to left.
+Repeat the second and third step until you can't move in the tree.
+
+Zigzag length is defined as the number of nodes visited - 1. (A single node has a length of 0).
+Return the longest ZigZag path contained in that tree.
+ ","There is a room with n bulbs, numbered from 1 to n, arranged in a row from left to right. Initially, all the bulbs are turned off.
+At moment k (for k from 0 to n - 1), we turn on the light[k] bulb. A bulb change color to blue only if it is on and all the previous bulbs (to the left) are turned on too.
+Return the number of moments in which all turned on bulbs are blue.
+ ","A company has n employees with a unique ID for each employee from 0 to n - 1. The head of the company has is the one with headID.
+Each employee has one direct manager given in the manager array where manager[i] is the direct manager of the i-th employee, manager[headID] = -1. Also it's guaranteed that the subordination relationships have a tree structure.
+The head of the company wants to inform all the employees of the company of an urgent piece of news. He will inform his direct subordinates and they will inform their subordinates and so on until all employees know about the urgent news.
+The i-th employee needs informTime[i] minutes to inform all of his direct subordinates (i.e After informTime[i] minutes, all his direct subordinates can start spreading the news).
+Return the number of minutes needed to inform all the employees about the urgent news.
+ ","Given two binary trees original and cloned and given a reference to a node target in the original tree.
+The cloned tree is a copy of the original tree.
+Return a reference to the same node in the cloned tree.
+Note that you are not allowed to change any of the two trees or the target node and the answer must be a reference to a node in the cloned tree.","Design a stack which supports the following operations.
+Implement the CustomStack class:
+
+CustomStack(int maxSize) Initializes the object with maxSize which is the maximum number of elements in the stack or do nothing if the stack reached the maxSize.
+void push(int x) Adds x to the top of the stack if the stack hasn't reached the maxSize.
+int pop() Pops and returns the top of stack or -1 if the stack is empty.
+void inc(int k, int val) Increments the bottom k elements of the stack by val. If there are less than k elements in the stack, just increment all the elements in the stack.
