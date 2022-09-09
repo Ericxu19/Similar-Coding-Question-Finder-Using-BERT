@@ -32,6 +32,7 @@ queries = ['You are given coins of different denominations and a total amount of
 
 
 # Find the closest 5 sentences of the corpus for each query sentence based on cosine similarity
+
 top_k = 8
 for query in queries:
     query_embedding = embedder.encode(query, convert_to_tensor=True)
@@ -41,7 +42,7 @@ for query in queries:
     #We use np.argpartition, to only partially sort the top_k results
     top_results = np.argpartition(-cos_scores, range(top_k))[0:top_k]
 
-    print("\n\n=================================")
+    print("\n\n==================================")
     print("Query:", query)
     print("\nTop 5 most similar questionss on Leetcode:")
     tags ={}
