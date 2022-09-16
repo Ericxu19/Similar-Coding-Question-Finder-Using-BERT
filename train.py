@@ -10,12 +10,12 @@ import csv
 import torch
 torch.cuda.empty_cache()
 
-#### Just some code to print debug information to stdout
+## Just some code to print debug information to stdout
 logging.basicConfig(format='%(asctime)s - %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
                     level=logging.INFO,
                     handlers=[LoggingHandler()])
-#### /print debug information to stdout
+## /print debug information to stdout
 
 #Check if dataset exsist. If not, download and extract  it
 dataset_path = 'leetData.csv'

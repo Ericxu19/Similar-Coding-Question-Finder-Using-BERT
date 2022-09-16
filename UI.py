@@ -20,9 +20,6 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.find_Button.clicked.connect(self.find)
 
 
-
-
-
 #for name, param in embedder.named_parameters():
 #    if param.requires_grad:print(name)
     def find(self):

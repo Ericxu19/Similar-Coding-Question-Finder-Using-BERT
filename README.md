@@ -1,7 +1,10 @@
 # Similar Coding Question Finder Using BERT
+Evaluates the capabilities of fine-tuned language models at finding logical similarities
+
+## Installation
 
 install sentence-transformers
-## Installation
+
 **Python 3.6** or higher, **[PyTorch 1.2.0](https://pytorch.org/get-started/locally/)** or higher and **[transformers v3.0.2](https://github.com/huggingface/transformers)** or higher. The code does **not** work with Python 2.7.
 
 First, follow the installation for PyTroch you can find here: [PyTorch - Get Started](https://pytorch.org/get-started/locally/). As the provided models can have a high computational overhead, it is recommend to run them on a GPU. See the PyTorch page how to install PyTorch for GPU (CUDA).
